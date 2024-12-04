@@ -94,6 +94,11 @@ fix(api): resolve null pointer exception in user service
 
 ---
 
+## **Autoria**
+Este script foi criado por **Wendel Evangelista**
+
+---
+
 ## **Personalização**
 O script utiliza o modelo `llama-3.1-70b-versatile` da Groq para gerar mensagens. Para personalizar o prompt ou ajustar o comportamento, edite o arquivo `index.js` e altere a variável `prompt` ou o modelo utilizado na API.
 
@@ -101,11 +106,6 @@ O script utiliza o modelo `llama-3.1-70b-versatile` da Groq para gerar mensagens
 
 ## **Contribuições**
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar PRs com melhorias.
-
----
-
-## **Licença**
-Este projeto está sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
 
 ---
 
