@@ -9,8 +9,8 @@ Este projeto automatiza a criação de mensagens de commit baseadas em diffs do 
 
 ### 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/commit-message-helper.git
-cd commit-message-helper
+git clone https://github.com/wendelevs/commit_groq_helper.git
+cd commit_message_helper
 ```
 
 ### 2. Instale as dependências:
@@ -57,7 +57,7 @@ GROQ_API_KEY=sua-chave-aqui
 ### 3. Execute o script:
 No diretório do projeto onde deseja gerar uma mensagem de commit, execute:
 ```bash
-commit-message-helper
+commit_message_helper
 ```
 
 O script carregará o diff do repositório atual e retornará uma sugestão de mensagem de commit no formato correto.
