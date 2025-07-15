@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import Groq from "groq-sdk";
 import { execSync } from "child_process";
 import dotenv from "dotenv";
