@@ -56,7 +56,7 @@ const groq = new Groq({ apiKey: GROQ_API_KEY });
  \n${gitDiff}`;
     const chatCompletion = await groq.chat.completions.create({
       messages: [{ role: "user", content: prompt }],
-      model: "llama-3.3-70b-versatile",
+      model: "openai/gpt-oss-20b",
     });
 
     console.log("Sugestão de mensagem de commit:");
